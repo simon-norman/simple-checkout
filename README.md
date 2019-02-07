@@ -4,7 +4,11 @@ This is a challenge from week 1 of the Maker's academy course. The application i
 
 ## How to download and run
 
+run 'git clone git@github.com:simon-norman/simple-checkout.git'
+
 ## How to run tests
+
+CD into the repository and run 'rspec' from command line / terminal
 
 ## Overview of technologies and approach
 
