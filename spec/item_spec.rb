@@ -1,9 +1,9 @@
 require './lib/item.rb'
 
 describe Item do
-  it 'can display its price' do
+  it 'can display its price in the format "£xx.xx"' do
     item = Item.new
 
-    expect(item.price).to be_kind_of(Float)
+    expect(item.formatted_price).to eq('£20.00')
   end
 end
