@@ -1,10 +1,12 @@
 
-class Checkout 
-    def initialize
-        @items = []
-    end
+class Checkout
+    attr_reader :total
     
+    def initialize
+        @total = 0
+    end
+
     def scan(item)
-        @items.push(item)
+        @total += item.price
     end
 end
